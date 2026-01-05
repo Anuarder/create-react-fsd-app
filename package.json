@@ -1,6 +1,6 @@
 {
   "name": "create-react-fsd-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to scaffold Feature-Sliced Design React applications",
   "type": "module",
   "main": "./dist/index.js",
@@ -48,4 +48,3 @@
     "node": ">=20.10.0"
   }
 }
-
