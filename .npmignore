@@ -1,0 +1,40 @@
+# Source files
+src/
+
+# Development files
+*.log
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build
+node_modules/
+bun.lockb
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation (keep README.md, LICENSE, CHANGELOG.md)
+CONTRIBUTING.md
+PUBLISHING.md
+
+# Config files
+tsconfig.json
+.prettierrc
+.eslintrc*
+

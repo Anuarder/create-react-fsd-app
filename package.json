@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "CLI tool to scaffold Feature-Sliced Design React applications",
   "type": "module",
+  "main": "./dist/index.js",
   "bin": {
     "create-react-fsd-app": "./dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "bun build ./src/index.ts --outdir ./dist --target node --format esm",
     "dev": "bun run ./src/index.ts",
@@ -19,10 +23,20 @@
     "feature-sliced-design",
     "fsd",
     "vite",
-    "tailwindcss"
+    "tailwindcss",
+    "create-app",
+    "boilerplate"
   ],
   "author": "anuarder.dev@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anuarder/create-react-fsd-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anuarder/create-react-fsd-app/issues"
+  },
+  "homepage": "https://github.com/Anuarder/create-react-fsd-app#readme",
   "dependencies": {
     "prompts": "^2.4.2"
   },
