@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-01-06
+
+> **[View Release on GitHub](https://github.com/Anuarder/create-react-fsd-app/releases/tag/v1.0.1)**
+
+### 📚 Documentation
+
+#### Changed
+- 📝 Enhanced CHANGELOG.md with comprehensive release notes
+  - Added detailed feature descriptions with emojis for better readability
+  - Organized content into clear categories (CLI, Architecture, Technology Stack, etc.)
+  - Included version information for all dependencies
+  - Added security and best practices section
+- 📖 Improved README.md documentation
+  - Better formatting and structure
+  - Clearer usage instructions
+  - Enhanced project structure explanations
+- 🔗 Added direct GitHub release links to CHANGELOG
+
+#### Fixed
+- 📋 Corrected local testing instructions in documentation
+- 🔧 Updated publishing guide with accurate npm link usage
+
 ## [1.0.0] - 2026-01-06
 
 > **[View Release on GitHub](https://github.com/Anuarder/create-react-fsd-app/releases/tag/1.0.0)**
@@ -134,6 +156,7 @@ The first stable release of `create-react-fsd-app` - a modern CLI tool for scaff
 - **License**: MIT
 - **Repository**: [github.com/Anuarder/create-react-fsd-app](https://github.com/Anuarder/create-react-fsd-app)
 
-[Unreleased]: https://github.com/Anuarder/create-react-fsd-app/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/Anuarder/create-react-fsd-app/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/Anuarder/create-react-fsd-app/releases/tag/v1.0.1
 [1.0.0]: https://github.com/Anuarder/create-react-fsd-app/releases/tag/v1.0.0
 
