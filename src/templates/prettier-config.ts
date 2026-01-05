@@ -1,0 +1,20 @@
+export function generatePrettierConfig(): string {
+  return JSON.stringify(
+    {
+      $schema: 'https://json.schemastore.org/prettierrc',
+      semi: true,
+      singleQuote: true,
+      printWidth: 100,
+      bracketSpacing: true,
+      trailingComma: 'es5',
+      importOrderSeparation: true,
+      importOrderSortSpecifiers: true,
+      importOrder: ['<THIRD_PARTY_MODULES>', '^~shared', '^~entities', '^~modules', '^~', '^[./]'],
+      singleAttributePerLine: false,
+      plugins: ['@trivago/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
+    },
+    null,
+    2
+  );
+}
+
