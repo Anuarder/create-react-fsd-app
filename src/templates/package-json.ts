@@ -36,7 +36,7 @@ export function generatePackageJson(projectName: string): string {
         '@types/node': '22.19.3',
         '@types/react': '19.2.7',
         '@types/react-dom': '19.2.3',
-        '@vitejs/plugin-react-swc': '3.11.0',
+        '@vitejs/plugin-react': '5.1.2',
         '@vitest/eslint-plugin': '1.6.5',
         '@vitest/ui': '2.1.9',
         eslint: '9.39.2',
